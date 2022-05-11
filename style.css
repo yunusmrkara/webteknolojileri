@@ -22,6 +22,7 @@ nav {
 }
 
 nav ul {
+  
   height: 90%;
   list-style-type: disc;
   overflow-y: auto;
@@ -29,11 +30,12 @@ nav ul {
   margin-block-end: 1em;
 }
 nav ul li {
-  border-top: 1px solid black;
+  border : 1px solid;
+  /* border-top: 1px solid black; */
 }
-li:nth-child(6) {
+/* li:nth-child(6) {
   border-bottom: 1px solid;
-}
+} */
 
 .nav-link {
   display: block;
@@ -45,7 +47,7 @@ li:nth-child(6) {
 header {
   color: black;
   margin: 10px;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   text-align: center;
 }
 #main-doc {
@@ -92,11 +94,18 @@ article ul {
 }
 #img-div {
   display: block !important;
-
   background-color: #fff;
   padding: 10px;
   text-align: center;
 }
 #img {
   width: 100%;
+}
+#ozgecmis{
+  font-size: 1.8rem;
+}
+.iletisim-link{
+  color: #000000;
+  text-decoration: none;
+
 }
