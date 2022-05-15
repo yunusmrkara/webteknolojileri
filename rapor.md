@@ -9,45 +9,45 @@
 
 ### Hakkımda Sayfası
 
-![](/hakkimda.PNG)
+![](https://github.com/yunusmrkara/webteknolojileri/blob/master/images/hakkimda.PNG) 
 
 Projemin anasayfasıdır. Kendimden ve sevdiklerimden bahsettim. İlgili sitelerin linklerini ekledim.
 
 ### Özgeçmiş Sayfası
 
-![](/ozgecmis.PNG)
+![](https://github.com/yunusmrkara/webteknolojileri/blob/master/images/ozgecmis.PNG)
 
 Özgeçmişime yer verdiğim sayfadır. 
 
 ### Şehrim Sayfası
 
-![](/sehrim.PNG)
+![](https://github.com/yunusmrkara/webteknolojileri/blob/master/images/sehrim.PNG)
 
 Şehrimi anlattığım sayfadır. Sakarya hakkında genel bilgilere yer verdim. Gezilip görülebilecek yerlerinden bahsettim.
 
 ### Takımımız Sayfası
 
-![](/takimimiz.PNG)
+![](https://github.com/yunusmrkara/webteknolojileri/blob/master/images/takimimiz.PNG)
 
 Sakaryaspor'u anlattığım sayfadır. Takımın kuruluşundan günümüze kadar olan macerasına yer verdim.
 
 ### Hava Durumu Sayfası
 
-![](/havadurumu.PNG)
+![](https://github.com/yunusmrkara/webteknolojileri/blob/master/images/havadurumu.PNG)
 
 OpenWeather API Servisini kullanarak Sakarya'nın haftalık hava raporuna yer verdim.
 
 ### Giriş Sayfası
 
-![](/giris.PNG)
+![](https://github.com/yunusmrkara/webteknolojileri/blob/master/images/giris.PNG)
 
 Siteye kayıtlı kişinin giriş yapabileceği sayfadır. 
 
-![](/giris2.PNG)
+![](https://github.com/yunusmrkara/webteknolojileri/blob/master/images/giris2.PNG)
 
 ### İletişim Sayfası
 
-![](/iletisim.PNG)
+![](https://github.com/yunusmrkara/webteknolojileri/blob/master/images/iletisim.PNGG)
 
 Kullanıcıdan bilgileri aldığım sayfadır.
 
