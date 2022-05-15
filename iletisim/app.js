@@ -1,6 +1,6 @@
 const containerDOM = document.querySelector('.container');
 
-const API_KEY = 'ff1f28f9491f246a408b000902acf985';
+const API_KEY = 'e81faec80cd13bab068b2f4bc08679e9';
 
 const günler = [
   'Pazar',
@@ -24,7 +24,6 @@ fetch(
 
       daysCard.forEach((item) => {
         if (!item.id == index) {
-          console.log(item);
           item.innerHTML = `
           <span >Anlık Hava Durumu</span>
           <div class="content-card">
@@ -43,7 +42,7 @@ fetch(
             element.temp['min'] - 273.15,
           )}&#8451</p>
           </div></div>  `;
-          
+          console.log(item);
         }
       });
     });

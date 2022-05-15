@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="/iletisim/iletisim.css" />
+    <title>İletişim</title>
+  </head>
+  <body id="body">
+    <nav id="navbar">
+      <header class="main-header">Yunus Emre KARA</header>
+      <ul>
+        <li>
+          <a href="/hakkimda/index.html" class="nav-link">
+            Hakkımızda</a
+          >
+        </li>
+        <li>
+          <a href="/özgecmis/index.html" class="nav-link">
+            Özgeçmiş
+          </a>
+        </li>
+        <li>
+          <a href="/sehrim/index.html" class="nav-link">
+            Şehrim
+          </a>
+        </li>
+        <li>
+          <a href="/takimimiz/index.html" class="nav-link">
+            Takımımız
+          </a>
+        </li>
+        <li>
+          <a href="/hava_durumu/index.html" class="nav-link"> Hava Durumu</a>
+        </li>
+        <li>
+          <a href="/iletisim/index.html" class="nav-link"
+            >İletişim</a
+          >
+        </li>
+        <li>
+          <a href="/giris/index.html"
+          class="nav-link"> Giriş</a>
+         </li>
+      </ul>
+    </nav>
+    <div class="container">
+       <div class="row">
+        <header id="header-title">
+            <h1 id="title">İletişim Formu</h1>
+        <p id="description">
+            İlgili Yerleri Lütfen Doldurunuz. İletişim Bilgileriniz Kimseyle Paylaşılmamaktadır.
+        </p>
+    
+        </header>
+        <form id="survey-form">
+            <div class="form-group">
+                <label id="name-label" for="name">İsim ve Soyisim</label>
+                <input name="firstname" required type="text" id="name" placeholder="İsminizi giriniz" />
+            </div>
+            <div class="form-group">
+                <label id="email-label" for="email">Email</label>
+                <input required type="email" id="email" placeholder="Elektronik posta adresinizi giriniz" />
+            </div>
+            <div class="form-group">
+                <label id="number-label" for="age">Yaş</label>
+                <input min="10" max="99" type="number" id="number" placeholder="Yaşınızı giriniz" />
+            </div>
+            <div class="form-group">
+                <label >Hangisi sizi en iyi tanımlar?</label>
+                <select id="dropdown">
+                    <option selected disabled>Rolünüzü seçiniz</option>
+                    <option name="student" value="student">Öğrenci</option>
+                    <option name="job" value="job">Çalışan</option>
+                    
+                    <option name="nottosay" value="nottosay">Söylemek istemiyorum</option>
+                    <option name="other" value="other">Diğer...</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label >Cinsiyetiniz nedir?</label>
+                
+                <label for="definitely"><input type="radio" id="definitely" name="radio-btn" value="definitely" checked/>Kadın</label>
+                <label for="maybe">
+                    <input type="radio" id="maybe" name="radio-btn" value="maybe"/>Erkek</label>
+                
+            </div>
+           
+            
+            <div class="form-group">
+                <label >Yorum veya öneriniz var mı?</label>
+                <textarea name="" id="" cols="50" rows="6" placeholder="Yorumunuzu buraya giriniz"></textarea>           
+            </div>
+            <button class="btn" id="reset" type="reset" >Sıfırla</button>
+            <button class="btn" id="submit" type="submit" >Gönder</button>
+
+       </div>
+    </div>
+    
+  </body>
+</html>
