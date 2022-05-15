@@ -3,14 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
-    <link
-      rel="stylesheet" href="/hava_durumu/havadurumu.css"
-    />
-    <title>Hava Durumu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/giris/giris.css" />
+    <title>Hakkımda</title>
   </head>
   <body>
     <nav id="navbar">
@@ -42,12 +37,21 @@
          </li>
       </ul>
     </nav>
-    <section>
-      <h1>HAVA DURUMU GÜNCEL</h1>
-      <h2>SAKARYA</h2>
-      <h3>1 HAFTALIK</h3>
-      <main class="container"></main>
-    </section>
-    <script src="app.js"></script>
-  </body>
-</html>
+    <main id="main-doc">
+      
+        <form method="post" action="/giris/index.php">
+          <div class="form-group">
+            <input type="text" name="username" placeholder="Kullanıcı Adı">
+            </div>
+          
+          <div class="form-group">
+          <input type="password" name="password" placeholder="Şifre">
+          </div>
+     
+          <div class="form-group">
+          <input type="submit" value="Giriş Yap">
+          </div>
+
+       
+     
+    </main>
